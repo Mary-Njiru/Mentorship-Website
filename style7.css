@@ -1,0 +1,257 @@
+#logo-icon{
+    display: flex;
+    gap: 2%;
+    margin-left: 200px;
+    gap: 8px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(7, 6, 6);
+    font-size: 16px;
+}
+a:hover{
+    color: blue;
+}
+nav{
+    margin-top: 0px;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    border: solid 0px;
+    height:7vh;
+    text-align: center;
+    padding-top: 34px;
+}
+#main-header{
+    display: flex;
+}
+#main-header{
+    display: flex;
+    gap: 19%;
+}
+.website-logo{
+    width: 150px;
+    height: 100px;
+}
+
+
+.mentorprofile{
+   width: 530px;
+   height: 690px;
+   margin-left: 190px;
+   border-radius: 15px;
+}
+.profile-words{
+    text-align: center;
+}
+#profile-form{
+    background-color: #C0D6DF;
+    border-radius: 15px;
+    width: 600px;
+    padding: 20px;
+
+}
+
+#profile{
+    display: flex;
+    gap: 3%;
+}
+h1{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 480px){
+    #logo-icon{
+        display: grid;
+        margin-left: 0;
+        gap: 2%;
+        
+    }
+    a{
+        text-decoration: none;
+        color: rgb(7, 6, 6);
+        font-size: 16px;
+    }
+    a:hover{
+        color: blue;
+    }
+    #logo-icon{
+        display: flex;
+        
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    #main-header{
+        display: flex;
+        flex-direction: column;
+    }
+    .website-logo{
+        width: 75px;
+        height: 100px;
+    }
+    
+    
+    .mentorprofile{
+       width: 370px;
+       height: 350px;
+       margin-left: 0;
+       border-radius: 15px;
+    }
+    .profile-words{
+        text-align: center;
+    }
+    #profile-form{
+        background-color: #C0D6DF;
+        border-radius: 15px;
+        width: 330px;
+        padding: 20px;
+    
+    }
+    
+    #profile{
+        display: grid;
+        gap: 3%;
+    }
+    h1{
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 764px) and (max-width: 1024px){
+   
+ 
+    #logo{
+        display: flex;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(7, 6, 6);
+        font-size: 16px;
+    }
+    a:hover{
+        color: blue;
+    }
+    nav{
+        /* margin-top: 0px;
+        display: flex;
+        gap: 0px;
+        /* margin-right: 100%; */
+        /* justify-content: center;
+        text-align: center;
+        padding-top: 34px;  */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* display: grid;
+        grid-template-columns: auto auto auto; */
+
+        
+        
+
+    }
+    #main-header{
+        display: flex;
+        margin-right: 50%;
+    }
+    .website-logo{
+        width: 75px;
+        height: 100px;
+    }
+    
+    
+    .mentorprofile{
+       width: 350px;
+       height: 750px;
+       margin-left: 0;
+       border-radius: 5px;
+    }
+    .profile-words{
+        text-align: center;
+    }
+    #profile-form{
+        background-color: #C0D6DF;
+        border-radius: 5px;
+        width: 500px;
+        padding: 20px;
+    
+    }
+    
+    #profile{
+        display: flex;
+        gap: 3%;
+    }
+    h1{
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 820px) and (max-width: 1180px){
+    #logo-icon{
+        /* display: flex; */
+        display: grid;
+        gap: 2%;
+        margin-left: 200px;
+        gap: 8px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: rgb(7, 6, 6);
+        font-size: 16px;
+    }
+    a:hover{
+        color: blue;
+    }
+    nav{
+        margin-top: 0px;
+        display: flex;
+        gap: 200px;
+        justify-content: center;
+        border: solid 0px;
+        height:7vh;
+        text-align: center;
+        padding-top: 34px;
+    }
+    
+    .website-logo{
+        width: 150px;
+        height: 100px;
+    }
+    
+    
+    .mentorprofile{
+       width: 530px;
+       height: 690px;
+       margin-left: 190px;
+       border-radius: 15px;
+    }
+    .profile-words{
+        text-align: center;
+    }
+    #profile-form{
+        background-color: #C0D6DF;
+        border-radius: 15px;
+        width: 600px;
+        padding: 20px;
+    
+    }
+    
+    #profile{
+        display: flex;
+        gap: 3%;
+    }
+    h1{
+        text-align: center;
+    }
+}

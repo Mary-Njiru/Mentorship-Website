@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goals</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+  
+  <nav> 
+    <a href="mentorsprofile.html">Mentor's Profile</a>
+    <a href="to-do-list.html">To-Do List</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="goals.html">Goals</a>
+    <a href="NYJ.html">Born a Crime</a>
+   </nav>
+
+    <div class="goals-display">
+            <header>
+              <h1>Goal Tracker</h1>
+              <section id="input">
+                <label for="task">Enter the goal</label>
+                <input type="text" name="goal" id="goal">
+                <button id="btn">Add</button>
+              </section>
+            </header>
+            <main>
+              <section id="hold" ondrop="drop(event)" ondragover="allowDrop(event)" onclick="deleteGoal(event)">
+                <h2>Hold</h2>
+              </section>
+              <section id="progress" ondrop="drop(event)" ondragover="allowDrop(event)" onclick="deleteGoal(event)">
+                <h2>Progress</h2>
+              </section>
+              <section id="review" ondrop="drop(event)" ondragover="allowDrop(event)" onclick="deleteGoal(event)">
+                <h2>Review</h2>
+              </section>
+              <section id="approved" ondrop="drop(event)" ondragover="allowDrop(event)" onclick="deleteGoal(event)">
+                <h2>Approved</h2>
+              </section>
+            </main>
+          </div>
+
+<script src="/script2.js"></script>
+
+
+</body>
+</html> 

@@ -1,0 +1,330 @@
+body{
+    background-color: #C0D6DF;
+
+}
+#form{
+    border: 2px solid;
+    border-radius: 50px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+
+}
+input{
+    padding: 12px 20px;
+    border-radius:5px;
+    border: 1px solid;
+    width: 80%;
+    height: 30%;
+}
+button{
+    padding: 6px 12px;
+    background-color: black;
+    border-radius: 5px;
+    border: 2px;
+    width: 50%;
+    height: 5vh;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.sign{
+    margin-right: 80px auto;
+    text-align: center;
+    font-size: 35px;
+    max-width: 600px;
+    position: relative;
+
+}
+.sign::before{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.sign::after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.logo-image{
+    width: 150px;
+    height: 150px;
+}
+
+@media screen and (max-width:480px) {
+    body{
+        background-color: #C0D6DF;
+    
+    }
+    #form{
+        border: 2px solid;
+        border-radius: 20px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 5px;
+        text-align: center;
+    
+    }
+    .input{
+        padding: 12px 20px;
+        border-radius:5px;
+        border: 1px solid;
+        width: 80%;
+        height: 30%;
+    }
+    button{
+        padding: 6px 12px;
+        background-color: black;
+        border-radius: 5px;
+        border: 2px;
+        width: 50%;
+        height: 5vh;
+    }
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .sign{
+        margin-right: 80px auto;
+        text-align: center;
+        font-size: 35px;
+        max-width: 600px;
+        position: relative;
+    
+    }
+    .sign::before{
+        content: "";
+        display: block;
+        width: 150px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+    .sign::after{
+        content: "";
+        display: block;
+        width: 150px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        right: 0;
+        top: 50%;
+    }
+    .logo-image{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 564px){
+    body{
+        background-color: #C0D6DF;
+    
+    }
+    #form{
+        border: 2px solid;
+        border-radius: 20px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 5px;
+        text-align: center;
+    
+    }
+    .input{
+        padding: 12px 20px;
+        border-radius:5px;
+        border: 1px solid;
+        width: 80%;
+        height: 30%;
+    }
+    button{
+        padding: 6px 12px;
+        background-color: black;
+        border-radius: 5px;
+        border: 2px;
+        width: 50%;
+        height: 5vh;
+    }
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .sign{
+        margin-right: 80px auto;
+        text-align: center;
+        font-size: 35px;
+        max-width: 600px;
+        position: relative;
+    
+    }
+    .sign::before{
+        content: "";
+        display: block;
+        width: 150px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+    .sign::after{
+        content: "";
+        display: block;
+        width: 150px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        right: 0;
+        top: 50%;
+    }
+    .logo-image{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (min-width: 565px) and (max-width: 768px){
+    body{
+        background-color: #C0D6DF;
+    
+    }
+    #form{
+        border: 2px solid;
+        border-radius: 20px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 5px;
+        text-align: center;
+    
+    }
+    .input{
+        padding: 12px 20px;
+        border-radius:5px;
+        border: 1px solid;
+        width: 80%;
+        height: 30%;
+    }
+    button{
+        padding: 6px 12px;
+        background-color: black;
+        border-radius: 5px;
+        border: 2px;
+        width: 50%;
+        height: 5vh;
+    }
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .sign{
+        margin-right: 80px auto;
+        text-align: center;
+        font-size: 35px;
+        max-width: 600px;
+        position: relative;
+    
+    }
+    .sign::before{
+        content: "";
+        display: block;
+        width: 150px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+    .sign::after{
+        content: "";
+        display: block;
+        width: 150px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        right: 0;
+        top: 50%;
+    }
+    .logo-image{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    body{
+        background-color: #C0D6DF;
+    
+    }
+    #form{
+        border: 2px solid;
+        border-radius: 20px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 5px;
+        text-align: center;
+    
+    }
+    .input{
+        padding: 12px 20px;
+        border-radius:5px;
+        border: 1px solid;
+        width: 80%;
+        height: 30%;
+    }
+    button{
+        padding: 6px 12px;
+        background-color: black;
+        border-radius: 5px;
+        border: 2px;
+        width: 50%;
+        height: 5vh;
+    }
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .sign{
+        margin-right: 80px auto;
+        text-align: center;
+        font-size: 35px;
+        max-width: 600px;
+        position: relative;
+    
+    }
+    .sign::before{
+        content: "";
+        display: block;
+        width: 150px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+    .sign::after{
+        content: "";
+        display: block;
+        width: 150px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        right: 0;
+        top: 50%;
+    }
+    .logo-image{
+        width: 150px;
+        height: 150px;
+    }
+}

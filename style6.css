@@ -1,0 +1,121 @@
+body{
+    background-color: #7ab6cb;
+}
+.landing-page-image{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+}
+#webpage{
+    display: flex;
+    border-radius: 10px;
+    border-color: black;
+    gap: 3%;
+    justify-content: center;
+    margin-top: 90px;
+}
+.logo-image{
+    width: 100px;
+    height: 100px;
+}
+#logo-text{
+    display: flex;
+}
+
+@media screen and (max-width:480px) {
+    body{
+        background-color: #7ab6cb;
+    }
+    .landing-page-image{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+    }
+    #webpage{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        border-color: black;
+    }
+    .logo-image{
+        width: 100px;
+        height: 100px;
+    }
+    #logo-text{
+        display: flex;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 564px){
+    body{
+        background-color: #7ab6cb;
+    }
+    .landing-page-image{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+    }
+    #webpage{
+        display: flex;
+        /* background-color: #7ab6cb; */
+        /* width: 600px; */
+        border-radius: 10px;
+        border-color: black;
+        gap: 3%;
+        justify-content: center;
+        margin-top: 90px;
+    }
+    .logo-image{
+        width: 100px;
+        height: 100px;
+    }
+    #logo-text{
+        display: flex;
+    }
+}
+@media screen and (min-width: 565px) and (max-width: 768px){
+    body{
+        background-color: #7ab6cb;
+    }
+    .landing-page-image{
+        width: 400px;
+        height: 500px;
+        background-color: white;
+    }
+    #webpage{
+        display: flex;
+        border-radius: 10px;
+        border-color: black;
+        justify-content: center;
+    }
+    .logo-image{
+        width: 100px;
+        height: 100px;
+    }
+    #logo-text{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    body{
+        background-color: #7ab6cb;
+    }
+    .landing-page-image{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+    }
+    #webpage{
+        display: flex;
+        border-radius: 10px;
+        border-color: black;
+        justify-content: center;
+    }
+    .logo-image{
+        width: 100px;
+        height: 100px;
+    }
+    #logo-text{
+        display: flex;
+    }
+}

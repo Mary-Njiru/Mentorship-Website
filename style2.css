@@ -1,0 +1,206 @@
+body{
+    background-color: #C0D6DF;
+
+}
+#logo-icon{
+    display: flex;
+    gap: 2%;
+    gap: 8px;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#main-header{
+    display: flex;
+    gap: 19%;
+}
+.website-logo{
+    width: 150px;
+    height: 100px;
+}
+
+a{
+    padding: 90px;
+    font-size: 20px;
+}
+.webpage-image{
+    margin-left: 10%;
+    margin-top: 60px;
+    height: 600px;
+    width: 750px;
+}
+#webpage{
+    display: flex;
+    gap: 3%;
+}
+#webpage-text{
+    margin-top: 120px;
+}
+
+@media screen and (max-width:480px) {
+    body{
+        background-color: #C0D6DF;
+        font-size: 70%;
+    
+    }
+    .website-logo{
+        width: 150px;
+        height: 100px;
+    }
+    
+    .webpage-image{
+        height: 300px;
+        width: 375px;
+        margin-left: 0;
+    }
+    #webpage{
+        flex-direction: column;
+    }
+    #logo-icon{
+        display: grid;
+        gap: 2%;
+        margin-left: 0px;
+        gap: 8px;
+        
+    }
+    nav{
+        display: grid;
+        font-size: 12px;
+        margin-top: 10px;
+        gap: 2px;
+    }
+    #main-header a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        margin-top: -150px;
+        
+    }
+    #main-header{
+        display: grid;
+    }
+}
+    
+@media screen and (min-width: 481px) and (max-width: 564px){
+    body{
+        background-color: #C0D6DF;
+    
+    }
+    #logo-icon{
+        display: flex;
+        
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    #main-header{
+        display: flex;
+        flex-direction: column;
+    }
+    .website-logo{
+        width: 150px;
+        height: 100px;
+    }
+    
+    
+    .webpage-image{
+        height: 500px;
+        width: 400px;
+    }
+    #webpage{
+        display: flex;
+    }
+   
+}
+@media screen and (min-width: 565px) and (max-width: 767px){
+    body{
+        background-color: #C0D6DF;
+    
+    }
+    #logo-icon{
+        display: flex;
+        
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    #main-header{
+        flex-direction: column;
+    }
+    .website-logo{
+        width: 150px;
+        height: 100px;
+    }
+    
+   
+    .webpage-image{
+        margin-left: 0;
+        height: 600px;
+        width: 500px;
+    }
+    #webpage{
+        display: grid;
+    }
+   
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    body{
+        background-color: #C0D6DF;
+    
+    }
+    #logo-icon{
+        display: flex;
+        
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    #main-header{
+        display: flex;
+        gap: 19%;
+    }
+    .website-logo{
+        width: 150px;
+        height: 100px;
+    }
+    
+    .webpage-image{
+        height: 800px;
+        width: 530px;
+        margin-left: 0;
+    }
+    #webpage{
+        display: flex;
+    }
+   
+}
