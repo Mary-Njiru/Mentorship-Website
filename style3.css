@@ -82,6 +82,37 @@ a{
     text-decoration: line-through;
     color: #3f3d3d;
    }
+   #tasks{
+    height: 50px;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    gap: 10px;
+   }
+   #bornaCrime{
+    border: none;
+    width: 50%;
+   }
+   #checkbox{
+    display: flex;
+   }
+   #view{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10%;
+    color: white;
+    font-weight: 600;
+   }
+   .view-summary a{
+    text-decoration: none;
+    color: white;
+   }
+   .view-summary{
+    width: 40%;
+   }
 
 @media screen and (max-width:480px) {
     body {

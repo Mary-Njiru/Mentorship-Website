@@ -44,8 +44,8 @@ h1{
    height: 700px;
 }
 
-@media all and (min-width: 280px) and (max-width: 1240px){
-   body{
+@media all and (min-width: 280px) and (max-width: 1024px){
+    body{
         background-color: #C0D6DF;
 }
 a{
@@ -58,11 +58,10 @@ a:hover{
 }
 nav{
     margin-top: 0px;
-    display: flex;
-    gap:1px;
+    display: grid;
+    gap: 0;
     justify-content: center;
     border: solid 0px;
-    height:7vh;
     text-align: center;
     padding-top: 34px;
 }
@@ -78,9 +77,16 @@ h1{
 .website-logo{
     width: 150px;
     height: 150px;
-    margin-left: -7px;
+    margin-left: 0;
 }
 #logo-icon{
     display: flex;
+}
+#summary{
+    display: grid;
+}
+.book{
+   width: 350px;
+   height: 400px;
 }
 }
